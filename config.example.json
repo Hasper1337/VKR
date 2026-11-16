@@ -1,0 +1,12 @@
+{
+  "agents": [
+    {"name": "agent_a", "model": "ollama:MODEL_A", "role": "analyst", "temperature": 0.7},
+    {"name": "agent_b", "model": "ollama:MODEL_B", "role": "skeptic", "temperature": 0.7},
+    {"name": "agent_c", "model": "ollama:MODEL_C", "role": "fact_checker", "temperature": 0.7}
+  ],
+  "max_rounds": 2,
+  "aggregation": "weighted",
+  "consensus_share": 1.0,
+  "judge_model": null,
+  "anonymize": true
+}
